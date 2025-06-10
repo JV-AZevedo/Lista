@@ -15,4 +15,3 @@ for i in range(n):
         elif x<menor:
             menor = x
 print("soma: ",s,"maior: ",maior,"menor: ",menor)
-
