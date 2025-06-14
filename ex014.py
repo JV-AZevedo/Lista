@@ -1,5 +1,6 @@
 #14) Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a 
 #quantidade de números ímpares. 
+
 p = 0
 i = 0
 for j in range(10):

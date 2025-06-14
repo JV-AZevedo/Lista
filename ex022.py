@@ -1,4 +1,5 @@
 #22) Altere o programa de cálculo dos números primos, informando, caso o número não seja primo, por quais número ele é divisível. 
+
 n = int(input("escreva o número: "))
 p = 1
 d = []

@@ -1,5 +1,6 @@
 #20) Altere o programa de cálculo do fatorial, permitindo ao usuário calcular o fatorial várias vezes e limitando o 
 #fatorial a números inteiros positivos e menores que 16. 
+
 while True:
     n = int(input("você quer o fatorial de qual número?(apenas inteiros positivos menores que 16): "))
     r = n
