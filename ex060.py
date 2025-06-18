@@ -3,7 +3,7 @@
 #frase = "Python é divertido" 
 # Saída esperada: "oditrevíd é nohtyP" 
 
-n = input("número para inverter: ")
+n = input("texto para inverter: ")
 l = []
 for i in range(len(n)):
     l.append(n[len(n)-1-i])
