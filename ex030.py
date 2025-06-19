@@ -10,7 +10,7 @@
 
 p = 1
 x = 1
-pr= 0.18
+pr= float(input("valor do pão: "))
 print("Panificadora Pão de Ontem - Tabela de preços")
 while p<=50:
     print(p,f"- {pr*x:.2f}")
