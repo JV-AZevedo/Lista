@@ -22,4 +22,3 @@ n1 = float(input("número 1: "))
 n2 = float(input("número 2: "))
 op = input("operação(soma(s),subtração(sub),multiplicação(m),divisão(d): ").lower()
 print(cal(n1,n2,op))
-    
