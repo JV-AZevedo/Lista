@@ -4,11 +4,8 @@
 #por espaços. 
 
 from collections import Counter
-
 def contador(l):
     dc = Counter(l)
     print(dc)
-
-
 l = input('texto: ').split()
 contador(l)
