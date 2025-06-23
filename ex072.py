@@ -8,7 +8,7 @@
 #Fahrenheit para Kelvin: K = (F - 32) / 1.8 + 273.15 
 #Kelvin para Fahrenheit: F = (K - 273.15) * 1.8 + 32 
 
-def cal(t,ui,uf):
+def cal_temp(t,ui,uf):
     if ui == "c" and uf == "f":
         r = t*1.8+32
     elif ui == "f" and uf == "c":
@@ -28,4 +28,4 @@ t = float(input("temperatura: "))
 ui = input("unidade de origem(C/F/K): ").lower()
 uf = input("unidade de destino(C/F/K): ").lower()
 
-print(cal(t,ui,uf))
+print(cal_temp(t,ui,uf))
